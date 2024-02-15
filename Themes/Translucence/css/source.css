@@ -31,7 +31,7 @@
   --mention-lightness: var(--accent-lightness);
   --mention-hsl: var(--mention-hue),calc(var(--mention-saturation) * var(--saturation-factor)),var(--mention-lightness);
   --mention-opacity: 1;
-  --reply-hue: 226;
+  --reply-hue: 50;
   --reply-saturation: 99.9%;
   --reply-lightness: 23.8%;
   --reply-hsl: var(--reply-hue),calc(var(--reply-saturation) * var(--saturation-factor)),var(--reply-lightness);
