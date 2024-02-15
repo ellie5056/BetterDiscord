@@ -34,7 +34,7 @@
   --reply-hue: 50;
   --reply-saturation: 99.9%;
   --reply-lightness: 23.8%;
-  --reply-hsl: var(--reply-hue),calc(var(--reply-saturation) * var(--saturation-factor)),var(--reply-lightness);
+  --reply-hsl: rgba(0, 28, 121, 1);
   --reply-opacity: 1;
   --notification-color: #fff;
   --list-item-radius: var(--app-radius);
@@ -392,7 +392,7 @@ body {
 
 .newMessagesBar__8b6d7,
 .jumpToPresentBar__0ff7f {
-  background-color: hsla(var(--accent-hsl), var(--accent-opacity));
+  background-color: rgba(0, 28, 121, 1);
 }
 
 .newMessagesBar__8b6d7 {
@@ -621,7 +621,7 @@ body {
 }
 .attachedBars_da3c74 .replyBar_b64d74,
 .attachedBars_da3c74 .threadSuggestionBar_b633f7 {
-  background-color: transparent;
+  background-color: rgba(0, 28, 121, 1);
 }
 
 .mentionButton_a470c4 {
@@ -2373,7 +2373,7 @@ body {
   display: none;
 }
 .wrapper__09ecc.replying_d7b6ad {
-  border-color: hsla(var(--reply-hsl), var(--reply-opacity));
+  border-color: rgba(0, 28, 121, 1);
   box-shadow: inset 0px 0px 10px 3px hsla(var(--reply-hsl), var(--reply-opacity)), 0px 0px 13px 4px hsla(var(--reply-hsl), var(--reply-opacity));
 }
 .wrapper__09ecc.replying_d7b6ad:before {
